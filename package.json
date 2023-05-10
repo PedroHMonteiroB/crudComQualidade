@@ -1,0 +1,21 @@
+{
+  "name": "aulas_crudcomqualidade",
+  "version": "1.0.0",
+  "description": "Projeto criando um CRUD com qualidade!",
+  "main": "index.js",
+  "scripts": {
+    "start:crud": "npx ts-node ./core/crud.ts",
+    "dev:crud": "nodemon ./core/crud.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.1.2",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "typescript": "^5.0.4"
+  }
+}
